@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project specific - models only
+*.pkl
+
+# Temporary files
+*.log
+*.tmp
+temp/
+tmp/
+
+# Documentation drafts - temporary guides
+COMMENTS_UPDATE_GUIDE.md
+SCREENSHOT_GUIDE.md
+RUN_VISUALIZE_GUIDE.md
+TRAINING_RESULTS_SUMMARY.md
+PROJECT_CHECK.md
+FINAL_CHECKLIST.md
+QUICKSTART.md
+*_draft.*
+*_old.*
+README_FINAL.md
+HOW_TO_UPLOAD_GITHUB.md
+upload_to_github.bat
+
+# Sample files
+Sample*.docx
+CDS524*.docx
