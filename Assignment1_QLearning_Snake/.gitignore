@@ -25,29 +25,27 @@ ENV/
 Thumbs.db
 desktop.ini
 
-# Project specific - models only
+# Project specific - models only (too large for git)
 *.pkl
 
 # Temporary files
 *.log
 *.tmp
+*.bat
 temp/
 tmp/
 
-# Documentation drafts - temporary guides
-COMMENTS_UPDATE_GUIDE.md
-SCREENSHOT_GUIDE.md
-RUN_VISUALIZE_GUIDE.md
-TRAINING_RESULTS_SUMMARY.md
-PROJECT_CHECK.md
-FINAL_CHECKLIST.md
-QUICKSTART.md
-*_draft.*
-*_old.*
-README_FINAL.md
-HOW_TO_UPLOAD_GITHUB.md
-upload_to_github.bat
+# Documentation - temporary files only
+*_GUIDE.md
+*_CHECKLIST.md
+*_SUMMARY.md
+VIDEO_SCRIPT.md
+Report_Template.md
+上传说明.txt
+HOW_TO_*.md
 
 # Sample files
 Sample*.docx
 CDS524*.docx
+*.docx
+*.doc
